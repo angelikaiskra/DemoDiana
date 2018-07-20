@@ -1,0 +1,40 @@
+{
+  "name": "DianaDemo2",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "ajv": "^6.5.2",
+    "eslint": "^5.1.0",
+    "gl-react": "2",
+    "gl-react-blur": "^2.0.1",
+    "gl-react-image": "^0.1.0",
+    "gl-react-instagramfilters": "^0.2.0",
+    "gl-react-native": "2",
+    "merge-images": "^1.1.0",
+    "prop-types": "^15.6.0",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-camera": "^1.1.4",
+    "react-native-fs": "^2.10.14",
+    "react-native-image-crop-picker": "^0.20.3",
+    "react-native-image-picker": "^0.26.10",
+    "react-native-snap-carousel": "^3.7.2",
+    "react-native-swipe-gestures": "^1.0.2",
+    "react-native-vector-icons": "^4.6.0",
+    "react-native-webgl": "^0.8.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel-jest": "23.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.2.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
